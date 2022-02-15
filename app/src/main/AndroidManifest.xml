@@ -11,7 +11,9 @@
         android:theme="@style/Theme.MyApplication">
         <activity
             android:name=".Sign_Up"
-            android:exported="false" />
+            android:label="Sign"/>
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

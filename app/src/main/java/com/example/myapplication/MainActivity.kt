@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
             {
               val intent = Intent(this@MainActivity, Sign_Up::class.java)
               startActivity(intent)
+                finish()
             }, 5000
         )
     }

@@ -13,7 +13,7 @@ class Sign_Up : AppCompatActivity() {
         var login = findViewById<Button>(R.id.sign_in)
         var account = findViewById<Button>(R.id.account)
         account.setOnClickListener {
-            val intent = Intent(this@Sign_Up, SignIn::class.java)
+            val intent = Intent(this@Sign_Up, CreateAccount::class.java)
             startActivity(intent)
             finish()
         }

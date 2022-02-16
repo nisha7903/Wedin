@@ -16,6 +16,7 @@
         android:layout_marginEnd="24dp"
         android:text="Sign In"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:backgroundTint="#852525"
         app:layout_constraintEnd_toEndOf="parent"

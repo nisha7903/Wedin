@@ -10,8 +10,8 @@ class Sign_Up : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
         supportActionBar?.hide()
-        var login = findViewById<Button>(R.id.sign_in)
-        var account = findViewById<Button>(R.id.account)
+        val login = findViewById<Button>(R.id.sign_in)
+        val account = findViewById<Button>(R.id.account)
         account.setOnClickListener {
             val intent = Intent(this@Sign_Up, CreateAccount::class.java)
             startActivity(intent)

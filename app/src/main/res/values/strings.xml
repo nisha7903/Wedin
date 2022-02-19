@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Register">New to GIDIUP?<b>Register</b></string>
 </resources>
